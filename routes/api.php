@@ -19,4 +19,3 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post("todolist", [TodolistController::class,'create']);
-//Route::post("todolist", 'TodolistController@create');
