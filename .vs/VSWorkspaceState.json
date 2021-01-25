@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Models",
+    "\\app\\Providers",
+    "\\database",
+    "\\database\\migrations",
+    "\\routes",
+    "\\storage"
+  ],
+  "SelectedNode": "\\app\\Http\\Controllers\\TodolistController.php",
+  "PreviewInSolutionExplorer": false
+}
