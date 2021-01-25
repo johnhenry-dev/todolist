@@ -49,9 +49,10 @@ class TodolistController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        echo 'Single Todolist'; 
+        $todolist = todolistModel::all();
+        return response()->json($todolist);
     }
 
     /**
