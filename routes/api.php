@@ -18,6 +18,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post("todolist", [TodolistController::class,'create']);
+Route::post('todolist', [TodolistController::class,'create']);
 
-Route::get("todolist", [TodolistController::class, 'show']);
+Route::get('todolist', [TodolistController::class, 'show']);
+
+Route::put('todolistUpdate/{id}', [TodolistController::class, 'update']);

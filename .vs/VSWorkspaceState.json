@@ -11,6 +11,6 @@
     "\\routes",
     "\\storage"
   ],
-  "SelectedNode": "\\app\\Http\\Controllers\\TodolistController.php",
+  "SelectedNode": "\\app\\Http\\Controllers\\Controller.php",
   "PreviewInSolutionExplorer": false
 }
