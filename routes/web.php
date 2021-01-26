@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TodolistController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\Http\Controllers\TodolistController@showAllData');
+
+Route::get('delete/{id}', 'App\Http\Controllers\TodolistController@delete');
+
+Route::get('create', 'App\Http\Controllers\TodolistController@create');
+
+Route::get('addTodo', 'App\Http\Controllers\TodolistController@addTodo');
+
+Route::get('edit/{id}', 'App\Http\Controllers\TodolistController@edit');
+
+Route::get('editTodo/{id}', 'App\Http\Controllers\TodolistController@editTodo');

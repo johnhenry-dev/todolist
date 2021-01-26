@@ -18,10 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('todolist', [TodolistController::class,'create']);
+Route::post('todolist', [TodolistController::class,'APIcreate']);
 
-Route::get('todolist', [TodolistController::class, 'show']);
+Route::get('todolist', [TodolistController::class, 'APIshow']);
 
-Route::put('todolistUpdate/{id}', [TodolistController::class, 'update']);
+Route::put('todolistUpdate/{id}', [TodolistController::class, 'APIupdate']);
 
-Route::delete('todolistDelete/{id}', [TodolistController::class, 'delete']);
+Route::delete('todolistDelete/{id}', [TodolistController::class, 'APIdelete']);

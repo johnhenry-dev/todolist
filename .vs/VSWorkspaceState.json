@@ -5,12 +5,13 @@
     "\\app\\Http",
     "\\app\\Http\\Controllers",
     "\\app\\Models",
-    "\\app\\Providers",
     "\\database",
     "\\database\\migrations",
+    "\\resources",
+    "\\resources\\views",
     "\\routes",
     "\\storage"
   ],
-  "SelectedNode": "\\app\\Http\\Controllers\\Controller.php",
+  "SelectedNode": "\\resources\\views\\fetchedData.blade.php",
   "PreviewInSolutionExplorer": false
 }
