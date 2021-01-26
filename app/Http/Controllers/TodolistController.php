@@ -37,4 +37,11 @@ class TodolistController extends Controller
         return response()->json($todolist);
     }
 
+     public function delete(Request $request, $id)
+    {
+        $todolist = todolistModel::find($id);
+        $todolist->delete();
+
+        return response()->json($todolist);
+    }
 }

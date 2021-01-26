@@ -23,3 +23,5 @@ Route::post('todolist', [TodolistController::class,'create']);
 Route::get('todolist', [TodolistController::class, 'show']);
 
 Route::put('todolistUpdate/{id}', [TodolistController::class, 'update']);
+
+Route::delete('todolistDelete/{id}', [TodolistController::class, 'delete']);
