@@ -12,6 +12,6 @@
     "\\routes",
     "\\storage"
   ],
-  "SelectedNode": "\\resources\\views\\fetchedData.blade.php",
+  "SelectedNode": "\\database\\migrations\\2021_01_24_133745_create_todolist_table.php",
   "PreviewInSolutionExplorer": false
 }

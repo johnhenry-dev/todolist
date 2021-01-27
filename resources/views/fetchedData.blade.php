@@ -19,15 +19,19 @@
         <style>
             body {
                 font-family: 'Nunito';
+                font-size:25px;
+                background-color: palegoldenrod;
+                font-weight:bold;
             }
         </style>
     </head>
     <body>
     <a href="create">Add To Do list</a>
+
         <table class = "table">
             <tr>
                 <td>ID</td>
-                <td>ToDoList</td>
+                <td>ToDo List</td>
             </tr>
       
             @foreach($toDoArr as $todo)

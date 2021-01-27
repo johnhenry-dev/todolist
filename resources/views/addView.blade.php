@@ -19,11 +19,14 @@
         <style>
             body {
                 font-family: 'Nunito';
+                font-size:25px;
+                background-color: palegoldenrod;
+                font-weight:bold;
             }
         </style>
     </head>
     <body>
-    <a href="create">View To Do list</a>
+    <a href="/">View To Do list</a>
     <div class="container text-center">
     
     <form action="addTodo">
